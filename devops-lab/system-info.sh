@@ -1,12 +1,19 @@
-#!/bin/bash
-#!/bin/bash
-
-echo "Date: $(23-06-26)"
-
-echo "User: $(parvathi)"
-
-echo "Uptime: $(09:36)"
-
-echo "Disk Usage:"
-
+echo "System Information"
+echo "----------------------"
+echo "Hostname:"
+hostname
+echo ""
+echo "Current User:"
+whoami
+echo ""
+echo "Operating System:"
+cat /etc/os-release
+echo ""
+echo "Kernel Version:"
+uname -r
+echo ""
+echo "Memory:"
+free -h
+echo ""
+echo "Disk:"
 df -h
