@@ -1,0 +1,14 @@
+cat << 'EOF' > .github/workflows/ci.yml
+name: Week 3 CI Pipeline
+on: [push]
+jobs:
+  run-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - name: Execute System Info Script
+        run: ./system-info.sh
+      - name: Success Notification
+        run: echo "Week 3 CI Successful"
+EOF
