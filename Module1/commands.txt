@@ -1,0 +1,20 @@
+pwd-shows current directory
+ls-lists files and directories
+cd-changes directory
+mkdir-creates a directory
+touch-create a file
+cp-copies files
+mv-moves or rename file
+rm-remove files
+cat-displays file content
+nano-opens text editor
+clear-clears terminal
+find-finds file and directories
+history-shows command history
+man-displaycommand manuals
+whatis-one line description of a command directly from its manual
+help-command that is built directly into the bash shell
+chmod-changes file permissions
+rmdir-removes an empty directory
+df-h-command shows your available disk space
+free-m-command shows your available memory
