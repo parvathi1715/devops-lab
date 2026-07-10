@@ -1,11 +1,26 @@
-[![Week 3 CI Pipeline](https://github.com/parvathi1715/devops-lab/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/parvathi1715/devops-lab/actions/workflows/ci.yml)
-# DevOps Internship Project
+# DevOps Lab - Internship Submission
 
-## Structure
-- *Module1/* – Linux user creation, file permissions, Git branching & merging
-- *Module2/* – Web hosting (Apache/Nginx) on AWS EC2 + Bash system-info script
-- *Module3/* – CI/CD workflow using GitHub Actions
+![CI](https://github.com/parvathi1715/devops-lab/actions/workflows/ci.yml/badge.svg)
+
+## Overview
+This repository contains all deliverables for the DevOps internship, organized into three modules covering Linux/Git fundamentals, web hosting with Bash scripting, and CI/CD automation.
+
+## Repository Structure
+
+devops-lab/
+├── Module1/          # Linux & Git files
+├── Module2/          # Web Hosting + Bash Script files
+│   ├── index.html
+│   └── system-info.sh
+├── Module3/          # CI/CD Workflow files
+├── .github/workflows/ci.yml
+└── README.md
+
+## Module 2 - Web Hosting + Bash Script
+Run locally:
+chmod +x Module2/system-info.sh
+./Module2/system-info.sh
 
 ## Final Reflection
 
-During this internship I learned how to create and manage Linux users and file permissions, use Git for branching and merging, host a live webpage on AWS EC2, write Bash scripts to automate system checks, and build a CI/CD pipeline with GitHub Actions. The most challenging part was correctly configuring the GitHub Actions workflow and resolving branch/merge conflicts in Git. I now clearly understand core DevOps concepts like version control, automation, and continuous integration. Going forward, I plan to apply these skills to automate deployments and manage infrastructure in real-world projects.
+During this internship, I learned the fundamentals of Linux system administration, Git version control, web server hosting, and CI/CD automation using GitHub Actions. The most challenging task was debugging the CI pipeline, since a script path mismatch between the repository root and the module folder caused repeated failures — this taught me the importance of verifying working directories in automated environments. Concepts that are now clear to me include file permissions, branching strategies, Bash scripting for system diagnostics, and how CI pipelines validate code on every push. Going forward, I plan to apply these skills to build more robust deployment pipelines and better understand infrastructure automation in real-world projects.
